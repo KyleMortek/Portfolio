@@ -6,15 +6,20 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
-
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(35, 250, 2)
+}
 .title-page {
-  margin-top: 40px;
+  /* margin-top: 20px; */
   margin-left: auto;
   margin-right: auto;
   /* text-align: center; */
+  margin-bottom: 0;
   position: absolute;
   width: 90%;
-  top: 50%;
+  top:50%;
   left: 50%;
   /* font-size: 5vw; */
   font-size:  50px;
@@ -66,8 +71,11 @@ a:active {
 /* ########################## */
 .icons:link {
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 0px solid transparent;
   font-size: 100px;
+  /* display: inline-block; */
+  /* float: right; */
+  
   /* height: 100vh; */
   /* font-size:10vw; */
 }
@@ -79,11 +87,11 @@ a:active {
 /* sechead applies the same look to all section titles */
 .secHead {}
 
-header {
+.header {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resources/img/galaxy1.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/galaxy1.jpg);
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;

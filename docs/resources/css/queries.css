@@ -1,11 +1,42 @@
 @media only screen and (max-width: 665px) {
   h1{
     font-size:15vw;
+  color: rgb(2, 246, 250)
+
   }
   a.ion-logo-linkedin.icons{
     font-size:15vw;
+    color: rgb(250, 2, 2)
   }
   a.ion-logo-github.icons{
     font-size:15vw;
+    color: rgb(250, 2, 2);
   }
 }
+@media only screen and (max-height: 300px) {
+  h1{
+    font-size:30vh;
+    /* border:0; */
+    display: inline-block;
+    color: rgb(250, 2, 2)
+
+  }
+  a.ion-logo-linkedin.icons{
+    font-size:30vh;
+  float: right;
+  margin-top: 5px;
+  color: rgb(10, 2, 250)
+  }
+  a.ion-logo-github.icons{
+    font-size:30vh;
+  float: right;
+margin-top: 5px;
+color: rgb(10, 2, 250)
+
+  }
+}
+/* 
+window.addEventListener('resize', function(event){
+  console.log(window.innerWidth);
+});
+ */
