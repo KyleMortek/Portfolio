@@ -16,7 +16,8 @@ html {
   width: 90%;
   top: 50%;
   left: 50%;
-  font-size: 2vw;
+  /* font-size: 5vw; */
+  font-size:  30px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   /* overflow hidden caused View page to partially disappear.  */
@@ -66,9 +67,9 @@ a:active {
 .icons:link {
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  font-size: 150px;
+  font-size: 50px;
   /* height: 100vh; */
-  font-size: 5vw;
+  /* font-size:10vw; */
 }
 
 /* ########################## */
