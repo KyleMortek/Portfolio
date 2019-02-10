@@ -1,13 +1,13 @@
-html{
+html {
   background-color: #fff;
   color: #555;
-  font-family: 'Lato','sans-serif';
+  font-family: 'Lato', 'sans-serif';
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
 
-.title-page{
+.title-page {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -20,23 +20,25 @@ html{
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   /* overflow hidden caused View page to partially disappear.  */
-  /* overflow: hidden; */ 
+  overflow: hidden;
 }
+
 /* ########################## */
 /* Links */
 /* ########################## */
 
 a:link,
-a:visited{
+a:visited {
   color: #e67e22;
   text-decoration: none;
-  padding-bottom: 1px; 
+  padding-bottom: 1px;
   border-bottom: 1px solid #e67e22;
-  -webkit-transition: border-bottom 0.2s,color 0.2s;
-  transition: border-bottom 0.2s,color 0.2s;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
 }
+
 a:hover,
-a:active{
+a:active {
   color: #555;
   border-bottom: 1px solid transparent;
 }
@@ -46,7 +48,7 @@ a:active{
 /* ########################## */
 
 .btn-att:link,
-.btn-att:visited{
+.btn-att:visited {
   border: 1px solid #e67e22;
   text-decoration: none;
   font-weight: 300;
@@ -54,32 +56,34 @@ a:active{
   padding: 10px 30px;
 
 }
-.btn-att:hover,
-.btn-att:visited{
 
-}
+.btn-att:hover,
+.btn-att:visited {}
+
 /* ########################## */
 /* icons */
 /* ########################## */
-.icons:link{
+.icons:link {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   font-size: 150px;
+  /* height: 100vh; */
+  font-size: 5vw;
 }
+
 /* ########################## */
 /* Header */
 /* ########################## */
 
 /* sechead applies the same look to all section titles */
-.secHead{
+.secHead {}
 
-}
-header{
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(resources/img/galaxy.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/galaxy.jpg);
+header {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resources/img/galaxy1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/galaxy1.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;  
+  background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   /* height: 100%; */
@@ -89,19 +93,18 @@ header{
 /* ########################## */
 /* Footer */
 /* ########################## */
-.this-is-me{
+.this-is-me {}
 
-}
 /* ########################## */
 /* NAVIGATION */
 /* ########################## */
-.main-nav{
+.main-nav {
   float: right;
 }
 
-.main-nav li{
+.main-nav li {
   /* beloew sits each next to each other  */
-  border-color:1px solid aqua;
+  border-color: 1px solid aqua;
   display: inline-block;
   list-style: none;
   margin-right: 20px;
@@ -111,14 +114,14 @@ header{
 /* ########################## */
 /* Project Images */
 /* ########################## */
-.completed{
+.completed {}
 
-}
-.completed-list{
-  list-style:none;
+.completed-list {
+  list-style: none;
   width: 100%;
 }
-.completed-list li{
+
+.completed-list li {
   display: block;
   float: left;
   /* border-radius: 200px; */
@@ -128,8 +131,8 @@ header{
   /* text-align: center; */
   /* align-content: center; */
 }
-.completed-list li:before{
+
+.completed-list li:before {
   /* content:""; */
 
 }
-
