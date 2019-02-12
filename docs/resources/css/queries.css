@@ -1,21 +1,14 @@
 @media only screen and (max-width: 665px) {
   h1 {
     font-size: 15vw;
+    float:left;
     /* color: rgb(2, 246, 250) */
 
   }
 
-  .pdf:link {
-    font-size: 8vw;
-    /* color: rgb(250, 2, 2) */
-  }
-
-  a.ion-logo-linkedin.icons {
-    font-size: 8vw;
-    /* color: rgb(250, 2, 2) */
-  }
-
-  a.ion-logo-github.iconsgit {
+  a.ion-logo-linkedin.icons,
+  a.ion-logo-github.iconsgit,
+  a.fas.fa-file-pdf.pdf {
     font-size: 8vw;
     /* color: rgb(250, 2, 2); */
   }
@@ -27,29 +20,21 @@
     /* border:0; */
     display: inline-block;
     float: left;
+
     /* color: rgb(250, 2, 2) */
 
   }
 
-  a.ion-logo-linkedin.icons {
+
+  a.ion-logo-linkedin.icons,
+  a.ion-logo-github.iconsgit,
+  a.fas.fa-file-pdf.pdf {
     font-size: 30vh;
+    display: inline-block;
     float: right;
     margin-top: 5px;
-    /* color: rgb(10, 2, 250) */
-  }
+    vertical-align: middle;
 
-  a.ion-logo-github.iconsgit {
-    font-size: 30vh;
-    float: right;
-    margin-top: 5px;
-    /* color: rgb(10, 2, 250) */
-
-  }
-
-  .pdf:link {
-    font-size: 30vh;
-    float: right;
-    margin-top: 5px;
     /* color: rgb(10, 2, 250) */
   }
 
