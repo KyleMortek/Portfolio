@@ -1,7 +1,7 @@
 @media only screen and (max-width: 665px) {
   h1 {
     font-size: 15vw;
-    float:left;
+    /* float:left; */
     /* color: rgb(2, 246, 250) */
 
   }
@@ -19,7 +19,7 @@
     font-size: 30vh;
     /* border:0; */
     display: inline-block;
-    float: left;
+    /* float: left; */
 
     /* color: rgb(250, 2, 2) */
 
@@ -31,7 +31,7 @@
   a.fas.fa-file-pdf.pdf {
     font-size: 30vh;
     display: inline-block;
-    float: right;
+    /* float: right; */
     margin-top: 5px;
     vertical-align: middle;
 
